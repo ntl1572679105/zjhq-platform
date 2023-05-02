@@ -1,0 +1,59 @@
+@import '~ant-design-vue/es/style/themes/default.less';
+//@import '~ant-design-vue/dist/antd.dark.less';
+
+.ant-pro-global-header {
+  //background-color: #131c25;
+  width: 100%;
+}
+
+.ant-pro-sider-logo {
+  background-color: #0d5fd8 !important;
+}
+.ant-menu {
+  background-color: #004fc4 !important;
+}
+.ant-pro-sider-links {
+  display: none !important;
+}
+.ant-menu-item-selected {
+  background-color: #ffffff14 !important;
+  box-shadow: 0 1px 0 0 #ffffff26 !important;
+}
+.ant-pro-sider-menu-icon {
+  width: 14px !important;
+  margin-right: 12px;
+}
+
+.ant-pro-global-header-index-right {
+  margin-right: 8px;
+
+  &.ant-pro-global-header-index-dark {
+    .ant-pro-global-header-index-action {
+      color: hsla(0, 0%, 100%, 0.85);
+
+      &:hover {
+        background: #1b77ff;
+      }
+    }
+  }
+
+  .ant-pro-account-avatar {
+    .antd-pro-global-header-index-avatar {
+      margin: ~'calc((@{layout-header-height} - 24px) / 2)' 0;
+      margin-right: 8px;
+      color: @primary-color;
+      vertical-align: top;
+      background: rgba(255, 255, 255, 0.85);
+    }
+  }
+
+  .menu {
+    .anticon {
+      margin-right: 8px;
+    }
+
+    .ant-dropdown-menu-item {
+      min-width: 100px;
+    }
+  }
+}
